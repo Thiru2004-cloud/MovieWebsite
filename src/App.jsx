@@ -8,7 +8,7 @@ import Banner from './components/Banner'
 export default function App() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/MovieWebsite/">
      <Navbar/>
      <Routes>
       <Route path='/' element={<><Banner/> <Movies/></>}/>
